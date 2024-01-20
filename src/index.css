@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: black;
+  transition: all 500ms;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header * {
+  margin: 10px;
+}
+
+header :nth-child(2) {
+  border: 1px solid rgb(25, 251, 17);
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid white; */
+  /* background: linear-gradient(red blue); */
+  /* background: linear-gradient(rgb(212, 145, 101), rgb(101, 211, 120)); */
+  /* border-radius: 20px; */
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  /* border: 1px solid white; */
+  border-radius: 10px 10px 0px 0px;
+  /* background-color: white; */
+}
+
+footer * {
+  padding: 20px;
+  /* background-color: white; */
+  /* border-radius: 10px 10px 0px 0px; */
+  color: white;
+  font-size: 15px;
+}
+
+.menu {
+  position: absolute;
+  left: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.menu h1 {
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.menu h1:hover {
+  transform: scale(1.1);
+  color: rgb(41, 241, 58);
+}
+
+/* .menu :nth-child(5) {
+  color: blue;
+} */
+
+h1 {
+  font-size: 100px;
+}
+
+.content {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  background-color: rgb(0, 0, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h2 {
+  transform: rotate(90deg);
+  font-size: 100px;
+  background-color: transparent;
+  border-bottom: 4px solid white;
+}
